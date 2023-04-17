@@ -1,6 +1,5 @@
 #include <Core/CoreAll.h>
 #include <Fusion/FusionAll.h>
-#include <CAM/CAMAll.h>
 
 #include <Foundation/Foundation.h>
 #include <Cocoa/Cocoa.h>
@@ -9,16 +8,15 @@
 
 using namespace adsk::core;
 using namespace adsk::fusion;
-using namespace adsk::cam;
 
-Ptr<Application> app;
-Ptr<UserInterface> ui;
+adsk::core::Ptr<Application> app;
+adsk::core::Ptr<UserInterface> ui;
 
 
 /**
  * Helper function
  */
-Ptr<Vector3D> getViewportCameraRightVector() {
+adsk::core::Ptr<Vector3D> getViewportCameraRightVector() {
     auto camera = app->activeViewport()->camera();
     
     auto right = camera->upVector();
@@ -34,7 +32,7 @@ Ptr<Vector3D> getViewportCameraRightVector() {
 /**
  * Helper function
  */
-void panViewportCameraByVector(Ptr<Vector3D> vector) {
+void panViewportCameraByVector(adsk::core::Ptr<Vector3D> vector) {
     auto camera = app->activeViewport()->camera();
     camera->isSmoothTransition(false);
     

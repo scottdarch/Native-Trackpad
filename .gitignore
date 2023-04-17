@@ -2,3 +2,7 @@
 /xcode/NativeTrackpad.build
 /xcode/NativeTrackpad.xcodeproj/project.xcworkspace
 /xcode/NativeTrackpad.xcodeproj/xcuserdata
+/xcode/EagerLinkingTBDs
+/xcode/NativeTrackpad.dylib
+.DS_Store
+

@@ -172,6 +172,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/include/Cam",
 				);
 				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
@@ -224,6 +225,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/include/Cam",
 				);
 				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
@@ -246,11 +248,7 @@
 				INSTALL_PATH = "$(SRCROOT)";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				OTHER_LDFLAGS = (
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/core.dylib",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/fusion.dylib",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/cam.dylib",
-				);
+				OTHER_LDFLAGS = "$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/core.dylib";
 				PRELINK_LIBS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)";
@@ -272,11 +270,7 @@
 				INSTALL_PATH = "$(SRCROOT)";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				OTHER_LDFLAGS = (
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/core.dylib",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/fusion.dylib",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/cam.dylib",
-				);
+				OTHER_LDFLAGS = "$(USER_LIBRARY_DIR)/Application\\ Support/Autodesk/Autodesk\\ Fusion\\ 360/API/CPP/lib/core.dylib";
 				PRELINK_LIBS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)";
